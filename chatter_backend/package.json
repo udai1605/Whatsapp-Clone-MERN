@@ -1,0 +1,19 @@
+{
+  "name": "chatter_backend",
+  "version": "1.0.0",
+  "description": "chatter backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Udaikiran",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "is-promise": "^4.0.0",
+    "mongoose": "^5.10.7",
+    "pusher": "^3.0.1"
+  }
+}
